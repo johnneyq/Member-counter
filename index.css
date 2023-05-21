@@ -1,0 +1,59 @@
+body {
+    background-image: url("caost.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 300px;
+    height: 60px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+
+}
+
+#increment-btn {
+    background: darkred;
+    font-size: larger;
+}
+
+#save-btn {
+    background: darkgreen;
+    font-size: larger;
+    
+}
+#save-el {
+    margin-top: 30px;
+    padding-bottom: 20px;
+    font-size: larger;
+}
+#container-1 {
+    background-color: hsla(165, 13%, 94%, 0.655);
+    max-width: 600px;
+    margin: auto;
+    margin-top: 200px;margin-top: 200px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px;
+    border: 5px solid rgb(225, 227, 248);
+}
+
+
