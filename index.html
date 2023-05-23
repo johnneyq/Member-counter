@@ -1,17 +1,26 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+          </style>
     </head>
     <body>
         <div id="container-1">
-            <h1>NUMBER OF PEOPLE:</h1>
-            <h2 id="count-el">0</h2>
+            <img src="cop2.jpeg" id="logo1">
+            <h1>COUNTER</h1>
+            <p id="plc-temple">Welcome to the Church of Pentecost, English Assembly
+               <br /><stronge>PALACE TEMPLE</stronge> 
+            </p>
+            <div id="container-3">
+                <h2 id="count-el">0</h2>
+            </div>
             <div id="container-2">
-                <button id="increment-btn" onclick="increment()">INCREMENT</button>
+                <button id="increment-btn" onclick="increment()">COUNT</button>
                 <br /><br />
                 <button id="save-btn" onclick="save()">SAVE</button>
             </div>
-            <p id="save-el">Previous entries: </p>
+            <p id="save-el">Previous Entries: </p>
         </div>
         <script src="index.js">
             
